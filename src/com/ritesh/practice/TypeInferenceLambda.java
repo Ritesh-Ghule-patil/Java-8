@@ -13,6 +13,7 @@ public class TypeInferenceLambda {
         Greeting anniversary = str-> "Happy Anniversary Dear "+name;
 
         System.out.println(anniversary.greet(name));
+
     }
 
 }
