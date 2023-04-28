@@ -5,6 +5,7 @@ import com.ritesh.model.Person;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class PersonExerciseWithLambda {
     public static void main(String[] args) {
@@ -41,9 +42,9 @@ public class PersonExerciseWithLambda {
 //        System.out.println();
 //    }
 
-    private static void printConditionally(List<Person> persons, Condition c) {
+    private static void printConditionally(List<Person> persons, Predicate<Person> predicate) {
         for (Person p:persons){
-            if(c.check(p)){
+            if(predicate.test(p)){
                 System.out.println(p.getFirstName());
             }
         }
@@ -56,6 +57,6 @@ public class PersonExerciseWithLambda {
     }
 }
 
-interface Condition {
-    boolean check(Person p);
-}
+//interface Condition {
+//    boolean check(Person p);
+//}
