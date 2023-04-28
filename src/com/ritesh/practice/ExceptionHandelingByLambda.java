@@ -15,6 +15,7 @@ public class ExceptionHandelingByLambda {
             }
             catch (ArithmeticException e){
                 System.out.println("You can't Divide a number by Zero");
+
             }
         });
     }
