@@ -1,4 +1,4 @@
-package com.ritesh.model;
+package com.ritesh.practice;
 
 public class RunnableExample {
     public static void main(String[] args) {

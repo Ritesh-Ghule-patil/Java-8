@@ -1,4 +1,4 @@
-package com.ritesh.model;
+package com.ritesh.practice;
 
 import com.ritesh.interfaces.Greeting;
 
