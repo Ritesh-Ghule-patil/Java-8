@@ -19,5 +19,7 @@ public class ConstuctorReferencing {
         List<Student> list1 = employees.stream().map(Student::new).toList();
         System.out.println(list1);
 
+
+
     }
 }
